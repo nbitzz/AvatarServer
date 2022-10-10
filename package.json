@@ -1,0 +1,21 @@
+{
+  "name": "avatarserver",
+  "version": "1.0.0",
+  "description": "Simple Node.js server that changes a T-Shirt on your Roblox avatar at a set interval. An avatar uploading tool is also available.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./scripts/index.js",
+    "uploader": "node ./scripts/uploader.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.0",
+    "canvas": "^2.10.1",
+    "cheerio": "^1.0.0-rc.12",
+    "form-data": "^4.0.0"
+  },
+  "type": "module"
+}
